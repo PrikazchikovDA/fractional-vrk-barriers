@@ -165,3 +165,33 @@ def count_conditions(s, alpha, p, scalar=True):
     (trees of stage height > s vanish identically)."""
     ts = [t for t in all_trees(alpha, p) if height(t) <= s]
     return len({atoms(t) for t in ts}) if scalar else len(ts)
+
+# ---------------- LaTeX ----------------
+def _tex_atom(r, k):
+    if r == 1:
+        return 'J' if k == 0 else ("J'" if k == 1 else ("J''" if k == 2 else f'J^{{({k})}}'))
+    pr = "''" if r == 2 else ("'''" if r == 3 else f'^{{({r})}}')
+    return f'f{pr}_{{{k}}}'
+def diff_tex(t):
+    if t == LEAF: return 'g_0'
+    k, ch = split(t)
+    if not ch: return f'g_{{{k}}}'
+    ch = sorted(ch, key=lambda c: (NK(c), str(c)))
+    if len(ch) == 1:
+        inner = diff_tex(ch[0])
+        return _tex_atom(1, k) + inner if not inner.startswith('f') else _tex_atom(1, k) + '\\,' + inner
+    return _tex_atom(len(ch), k) + '(' + ',\\,'.join(diff_tex(c) for c in ch) + ')'
+def _ctex(k): return '' if k == 0 else ('c' if k == 1 else f'c^{{{k}}}')
+def _stage_tex(t):
+    k, ch = split(t)
+    if not ch: return f'd_{{{k}}}'
+    parts = ([_ctex(k)] if k else []) + [_stage_tex(c) for c in sorted(ch, key=lambda c: (NK(c), str(c)))]
+    if len(parts) == 1: return 'A' + parts[0] if parts[0].startswith(('d', 'A')) else f'A({parts[0]})'
+    return 'A(' + '\\cdot '.join(parts) + ')'
+def weight_tex(t):
+    if t == LEAF: return 'D_0'
+    k, ch = split(t)
+    if not ch: return f'D_{{{k}}}'
+    parts = ([_ctex(k)] if k else []) + [_stage_tex(c) for c in sorted(ch, key=lambda c: (NK(c), str(c)))]
+    if len(parts) == 1: return 'b^{\\top}' + parts[0]
+    return 'b^{\\top}(' + '\\cdot '.join(parts) + ')'

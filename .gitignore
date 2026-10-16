@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 paper/figs/
+paper2/paper/*.aux
+paper2/paper/*.log
+paper2/paper/*.out

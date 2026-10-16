@@ -1,0 +1,22 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}\usepackage{polyglossia}\setdefaultlanguage{russian}\setotherlanguage{english}
+\setmainfont{Liberation Serif}\setsansfont{DejaVu Sans}
+\usepackage{amsmath,amssymb,amsthm}\usepackage[margin=2.3cm]{geometry}\usepackage{booktabs,longtable}
+\usepackage[colorlinks=true]{hyperref}
+\theoremstyle{plain}\newtheorem{theorem}{Теорема}\newtheorem{lemma}{Лемма}\newtheorem{corollary}{Следствие}
+\theoremstyle{definition}\newtheorem{definition}{Определение}\newtheorem{remark}{Замечание}
+\renewcommand{\proofname}{Доказательство}
+\newcommand{\G}{\Gamma}\newcommand{\dd}{\,\mathrm{d}}
+\begin{document}
+\section*{Предварительный просмотр раздела}
+Ссылки на формулы (1)--(5) первой статьи: \eqref{eq:fde}, \eqref{eq:split}, \eqref{eq:method}, \eqref{eq:rowsum}, \eqref{eq:beta} --- заглушки.
+\begin{equation}\label{eq:fde}\end{equation}\begin{equation}\label{eq:split}\end{equation}\begin{equation}\label{eq:method}\end{equation}\begin{equation}\label{eq:rowsum}\end{equation}\begin{equation}\label{eq:beta}\end{equation}
+\input{sec_expansion.tex}
+\begin{thebibliography}{9}
+\bibitem{PrikBarriers} Приказчиков Д.\,А. Барьеры порядка явных дробных методов Рунге--Кутты в форме Вольтерры (направлена в ЖВМиМФ).
+\bibitem{Butcher2016} Butcher J.\,C. Numerical Methods for ODEs. 3rd ed. Wiley, 2016.
+\bibitem{HNW1993} Hairer E., N{\o}rsett S.\,P., Wanner G. Solving ODEs I. Springer, 1993.
+\bibitem{Lubich1983} Lubich Ch. Runge--Kutta theory for Volterra and Abel integral equations of the second kind // Math. Comp. 1983. V.~41. P.~87--102.
+\bibitem{Garrappa2010} Garrappa R. Order conditions for Volterra Runge--Kutta methods // Appl. Numer. Math. 2010. V.~60. P.~561--573.
+\end{thebibliography}
+\end{document}
