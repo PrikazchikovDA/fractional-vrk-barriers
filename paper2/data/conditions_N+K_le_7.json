@@ -1,0 +1,767 @@
+[
+{
+"N": 1,
+"K": 0,
+"diff": "g_0",
+"weight": "D_0",
+"sigma": 1,
+"height": 1,
+"scalar_group": 1
+},
+{
+"N": 1,
+"K": 1,
+"diff": "g_1",
+"weight": "D_1",
+"sigma": 1,
+"height": 1,
+"scalar_group": 1
+},
+{
+"N": 2,
+"K": 1,
+"diff": "D_{1,0}(g_1)",
+"weight": "bᵀ(d_1)",
+"sigma": 1,
+"height": 2,
+"scalar_group": 1
+},
+{
+"N": 1,
+"K": 2,
+"diff": "g_2",
+"weight": "D_2",
+"sigma": 2,
+"height": 1,
+"scalar_group": 1
+},
+{
+"N": 3,
+"K": 1,
+"diff": "D_{1,0}(D_{1,0}(g_1))",
+"weight": "bᵀ(Ad_1)",
+"sigma": 1,
+"height": 3,
+"scalar_group": 1
+},
+{
+"N": 2,
+"K": 2,
+"diff": "D_{1,1}(g_1)",
+"weight": "bᵀ(c·d_1)",
+"sigma": 1,
+"height": 2,
+"scalar_group": 1
+},
+{
+"N": 2,
+"K": 2,
+"diff": "D_{1,0}(g_2)",
+"weight": "bᵀ(d_2)",
+"sigma": 2,
+"height": 2,
+"scalar_group": 2
+},
+{
+"N": 1,
+"K": 3,
+"diff": "g_3",
+"weight": "D_3",
+"sigma": 6,
+"height": 1,
+"scalar_group": 1
+},
+{
+"N": 4,
+"K": 1,
+"diff": "D_{1,0}(D_{1,0}(D_{1,0}(g_1)))",
+"weight": "bᵀ(A(Ad_1))",
+"sigma": 1,
+"height": 4,
+"scalar_group": 1
+},
+{
+"N": 3,
+"K": 2,
+"diff": "D_{1,0}(D_{1,1}(g_1))",
+"weight": "bᵀ(A(c·d_1))",
+"sigma": 1,
+"height": 3,
+"scalar_group": 1
+},
+{
+"N": 3,
+"K": 2,
+"diff": "D_{1,0}(D_{1,0}(g_2))",
+"weight": "bᵀ(Ad_2)",
+"sigma": 2,
+"height": 3,
+"scalar_group": 2
+},
+{
+"N": 3,
+"K": 2,
+"diff": "D_{1,1}(D_{1,0}(g_1))",
+"weight": "bᵀ(c·Ad_1)",
+"sigma": 1,
+"height": 3,
+"scalar_group": 1
+},
+{
+"N": 3,
+"K": 2,
+"diff": "D_{2,0}(g_1,g_1)",
+"weight": "bᵀ(d_1·d_1)",
+"sigma": 2,
+"height": 2,
+"scalar_group": 3
+},
+{
+"N": 2,
+"K": 3,
+"diff": "D_{1,2}(g_1)",
+"weight": "bᵀ(c^2·d_1)",
+"sigma": 2,
+"height": 2,
+"scalar_group": 1
+},
+{
+"N": 2,
+"K": 3,
+"diff": "D_{1,1}(g_2)",
+"weight": "bᵀ(c·d_2)",
+"sigma": 2,
+"height": 2,
+"scalar_group": 2
+},
+{
+"N": 2,
+"K": 3,
+"diff": "D_{1,0}(g_3)",
+"weight": "bᵀ(d_3)",
+"sigma": 6,
+"height": 2,
+"scalar_group": 3
+},
+{
+"N": 1,
+"K": 4,
+"diff": "g_4",
+"weight": "D_4",
+"sigma": 24,
+"height": 1,
+"scalar_group": 1
+},
+{
+"N": 5,
+"K": 1,
+"diff": "D_{1,0}(D_{1,0}(D_{1,0}(D_{1,0}(g_1))))",
+"weight": "bᵀ(A(A(Ad_1)))",
+"sigma": 1,
+"height": 5,
+"scalar_group": 1
+},
+{
+"N": 4,
+"K": 2,
+"diff": "D_{1,0}(D_{1,0}(D_{1,1}(g_1)))",
+"weight": "bᵀ(A(A(c·d_1)))",
+"sigma": 1,
+"height": 4,
+"scalar_group": 1
+},
+{
+"N": 4,
+"K": 2,
+"diff": "D_{1,0}(D_{1,0}(D_{1,0}(g_2)))",
+"weight": "bᵀ(A(Ad_2))",
+"sigma": 2,
+"height": 4,
+"scalar_group": 2
+},
+{
+"N": 4,
+"K": 2,
+"diff": "D_{1,0}(D_{1,1}(D_{1,0}(g_1)))",
+"weight": "bᵀ(A(c·Ad_1))",
+"sigma": 1,
+"height": 4,
+"scalar_group": 1
+},
+{
+"N": 4,
+"K": 2,
+"diff": "D_{1,0}(D_{2,0}(g_1,g_1))",
+"weight": "bᵀ(A(d_1·d_1))",
+"sigma": 2,
+"height": 3,
+"scalar_group": 3
+},
+{
+"N": 4,
+"K": 2,
+"diff": "D_{1,1}(D_{1,0}(D_{1,0}(g_1)))",
+"weight": "bᵀ(c·A(Ad_1))",
+"sigma": 1,
+"height": 4,
+"scalar_group": 1
+},
+{
+"N": 4,
+"K": 2,
+"diff": "D_{2,0}(g_1,D_{1,0}(g_1))",
+"weight": "bᵀ(d_1·Ad_1)",
+"sigma": 1,
+"height": 3,
+"scalar_group": 3
+},
+{
+"N": 3,
+"K": 3,
+"diff": "D_{1,0}(D_{1,2}(g_1))",
+"weight": "bᵀ(A(c^2·d_1))",
+"sigma": 2,
+"height": 3,
+"scalar_group": 1
+},
+{
+"N": 3,
+"K": 3,
+"diff": "D_{1,0}(D_{1,1}(g_2))",
+"weight": "bᵀ(A(c·d_2))",
+"sigma": 2,
+"height": 3,
+"scalar_group": 2
+},
+{
+"N": 3,
+"K": 3,
+"diff": "D_{1,0}(D_{1,0}(g_3))",
+"weight": "bᵀ(Ad_3)",
+"sigma": 6,
+"height": 3,
+"scalar_group": 3
+},
+{
+"N": 3,
+"K": 3,
+"diff": "D_{1,2}(D_{1,0}(g_1))",
+"weight": "bᵀ(c^2·Ad_1)",
+"sigma": 2,
+"height": 3,
+"scalar_group": 1
+},
+{
+"N": 3,
+"K": 3,
+"diff": "D_{1,1}(D_{1,1}(g_1))",
+"weight": "bᵀ(c·A(c·d_1))",
+"sigma": 1,
+"height": 3,
+"scalar_group": 4
+},
+{
+"N": 3,
+"K": 3,
+"diff": "D_{1,1}(D_{1,0}(g_2))",
+"weight": "bᵀ(c·Ad_2)",
+"sigma": 2,
+"height": 3,
+"scalar_group": 2
+},
+{
+"N": 3,
+"K": 3,
+"diff": "D_{2,1}(g_1,g_1)",
+"weight": "bᵀ(c·d_1·d_1)",
+"sigma": 2,
+"height": 2,
+"scalar_group": 5
+},
+{
+"N": 3,
+"K": 3,
+"diff": "D_{2,0}(g_1,g_2)",
+"weight": "bᵀ(d_1·d_2)",
+"sigma": 2,
+"height": 2,
+"scalar_group": 6
+},
+{
+"N": 2,
+"K": 4,
+"diff": "D_{1,2}(g_2)",
+"weight": "bᵀ(c^2·d_2)",
+"sigma": 4,
+"height": 2,
+"scalar_group": 1
+},
+{
+"N": 2,
+"K": 4,
+"diff": "D_{1,3}(g_1)",
+"weight": "bᵀ(c^3·d_1)",
+"sigma": 6,
+"height": 2,
+"scalar_group": 2
+},
+{
+"N": 2,
+"K": 4,
+"diff": "D_{1,1}(g_3)",
+"weight": "bᵀ(c·d_3)",
+"sigma": 6,
+"height": 2,
+"scalar_group": 3
+},
+{
+"N": 2,
+"K": 4,
+"diff": "D_{1,0}(g_4)",
+"weight": "bᵀ(d_4)",
+"sigma": 24,
+"height": 2,
+"scalar_group": 4
+},
+{
+"N": 1,
+"K": 5,
+"diff": "g_5",
+"weight": "D_5",
+"sigma": 120,
+"height": 1,
+"scalar_group": 1
+},
+{
+"N": 6,
+"K": 1,
+"diff": "D_{1,0}(D_{1,0}(D_{1,0}(D_{1,0}(D_{1,0}(g_1)))))",
+"weight": "bᵀ(A(A(A(Ad_1))))",
+"sigma": 1,
+"height": 6,
+"scalar_group": 1
+},
+{
+"N": 5,
+"K": 2,
+"diff": "D_{1,0}(D_{1,0}(D_{1,0}(D_{1,1}(g_1))))",
+"weight": "bᵀ(A(A(A(c·d_1))))",
+"sigma": 1,
+"height": 5,
+"scalar_group": 1
+},
+{
+"N": 5,
+"K": 2,
+"diff": "D_{1,0}(D_{1,0}(D_{1,0}(D_{1,0}(g_2))))",
+"weight": "bᵀ(A(A(Ad_2)))",
+"sigma": 2,
+"height": 5,
+"scalar_group": 2
+},
+{
+"N": 5,
+"K": 2,
+"diff": "D_{1,0}(D_{1,0}(D_{1,1}(D_{1,0}(g_1))))",
+"weight": "bᵀ(A(A(c·Ad_1)))",
+"sigma": 1,
+"height": 5,
+"scalar_group": 1
+},
+{
+"N": 5,
+"K": 2,
+"diff": "D_{1,0}(D_{1,0}(D_{2,0}(g_1,g_1)))",
+"weight": "bᵀ(A(A(d_1·d_1)))",
+"sigma": 2,
+"height": 4,
+"scalar_group": 3
+},
+{
+"N": 5,
+"K": 2,
+"diff": "D_{1,0}(D_{1,1}(D_{1,0}(D_{1,0}(g_1))))",
+"weight": "bᵀ(A(c·A(Ad_1)))",
+"sigma": 1,
+"height": 5,
+"scalar_group": 1
+},
+{
+"N": 5,
+"K": 2,
+"diff": "D_{1,0}(D_{2,0}(g_1,D_{1,0}(g_1)))",
+"weight": "bᵀ(A(d_1·Ad_1))",
+"sigma": 1,
+"height": 4,
+"scalar_group": 3
+},
+{
+"N": 5,
+"K": 2,
+"diff": "D_{2,0}(D_{1,0}(g_1),D_{1,0}(g_1))",
+"weight": "bᵀ(Ad_1·Ad_1)",
+"sigma": 2,
+"height": 3,
+"scalar_group": 3
+},
+{
+"N": 5,
+"K": 2,
+"diff": "D_{1,1}(D_{1,0}(D_{1,0}(D_{1,0}(g_1))))",
+"weight": "bᵀ(c·A(A(Ad_1)))",
+"sigma": 1,
+"height": 5,
+"scalar_group": 1
+},
+{
+"N": 5,
+"K": 2,
+"diff": "D_{2,0}(g_1,D_{1,0}(D_{1,0}(g_1)))",
+"weight": "bᵀ(d_1·A(Ad_1))",
+"sigma": 1,
+"height": 4,
+"scalar_group": 3
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,0}(D_{1,0}(D_{1,2}(g_1)))",
+"weight": "bᵀ(A(A(c^2·d_1)))",
+"sigma": 2,
+"height": 4,
+"scalar_group": 1
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,0}(D_{1,0}(D_{1,1}(g_2)))",
+"weight": "bᵀ(A(A(c·d_2)))",
+"sigma": 2,
+"height": 4,
+"scalar_group": 2
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,0}(D_{1,0}(D_{1,0}(g_3)))",
+"weight": "bᵀ(A(Ad_3))",
+"sigma": 6,
+"height": 4,
+"scalar_group": 3
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,0}(D_{1,2}(D_{1,0}(g_1)))",
+"weight": "bᵀ(A(c^2·Ad_1))",
+"sigma": 2,
+"height": 4,
+"scalar_group": 1
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,0}(D_{1,1}(D_{1,1}(g_1)))",
+"weight": "bᵀ(A(c·A(c·d_1)))",
+"sigma": 1,
+"height": 4,
+"scalar_group": 4
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,0}(D_{1,1}(D_{1,0}(g_2)))",
+"weight": "bᵀ(A(c·Ad_2))",
+"sigma": 2,
+"height": 4,
+"scalar_group": 2
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,0}(D_{2,1}(g_1,g_1))",
+"weight": "bᵀ(A(c·d_1·d_1))",
+"sigma": 2,
+"height": 3,
+"scalar_group": 5
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,0}(D_{2,0}(g_1,g_2))",
+"weight": "bᵀ(A(d_1·d_2))",
+"sigma": 2,
+"height": 3,
+"scalar_group": 6
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,2}(D_{1,0}(D_{1,0}(g_1)))",
+"weight": "bᵀ(c^2·A(Ad_1))",
+"sigma": 2,
+"height": 4,
+"scalar_group": 1
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,1}(D_{1,0}(D_{1,1}(g_1)))",
+"weight": "bᵀ(c·A(A(c·d_1)))",
+"sigma": 1,
+"height": 4,
+"scalar_group": 4
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,1}(D_{1,0}(D_{1,0}(g_2)))",
+"weight": "bᵀ(c·A(Ad_2))",
+"sigma": 2,
+"height": 4,
+"scalar_group": 2
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,1}(D_{1,1}(D_{1,0}(g_1)))",
+"weight": "bᵀ(c·A(c·Ad_1))",
+"sigma": 1,
+"height": 4,
+"scalar_group": 4
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{1,1}(D_{2,0}(g_1,g_1))",
+"weight": "bᵀ(c·A(d_1·d_1))",
+"sigma": 2,
+"height": 3,
+"scalar_group": 7
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{2,1}(g_1,D_{1,0}(g_1))",
+"weight": "bᵀ(c·d_1·Ad_1)",
+"sigma": 1,
+"height": 3,
+"scalar_group": 5
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{2,0}(g_1,D_{1,1}(g_1))",
+"weight": "bᵀ(d_1·A(c·d_1))",
+"sigma": 1,
+"height": 3,
+"scalar_group": 7
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{2,0}(g_1,D_{1,0}(g_2))",
+"weight": "bᵀ(d_1·Ad_2)",
+"sigma": 2,
+"height": 3,
+"scalar_group": 6
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{3,0}(g_1,g_1,g_1)",
+"weight": "bᵀ(d_1·d_1·d_1)",
+"sigma": 6,
+"height": 2,
+"scalar_group": 8
+},
+{
+"N": 4,
+"K": 3,
+"diff": "D_{2,0}(g_2,D_{1,0}(g_1))",
+"weight": "bᵀ(d_2·Ad_1)",
+"sigma": 2,
+"height": 3,
+"scalar_group": 6
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,0}(D_{1,2}(g_2))",
+"weight": "bᵀ(A(c^2·d_2))",
+"sigma": 4,
+"height": 3,
+"scalar_group": 1
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,0}(D_{1,3}(g_1))",
+"weight": "bᵀ(A(c^3·d_1))",
+"sigma": 6,
+"height": 3,
+"scalar_group": 2
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,0}(D_{1,1}(g_3))",
+"weight": "bᵀ(A(c·d_3))",
+"sigma": 6,
+"height": 3,
+"scalar_group": 3
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,0}(D_{1,0}(g_4))",
+"weight": "bᵀ(Ad_4)",
+"sigma": 24,
+"height": 3,
+"scalar_group": 4
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,2}(D_{1,1}(g_1))",
+"weight": "bᵀ(c^2·A(c·d_1))",
+"sigma": 2,
+"height": 3,
+"scalar_group": 5
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,2}(D_{1,0}(g_2))",
+"weight": "bᵀ(c^2·Ad_2)",
+"sigma": 4,
+"height": 3,
+"scalar_group": 1
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{2,2}(g_1,g_1)",
+"weight": "bᵀ(c^2·d_1·d_1)",
+"sigma": 4,
+"height": 2,
+"scalar_group": 6
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,3}(D_{1,0}(g_1))",
+"weight": "bᵀ(c^3·Ad_1)",
+"sigma": 6,
+"height": 3,
+"scalar_group": 2
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,1}(D_{1,2}(g_1))",
+"weight": "bᵀ(c·A(c^2·d_1))",
+"sigma": 2,
+"height": 3,
+"scalar_group": 5
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,1}(D_{1,1}(g_2))",
+"weight": "bᵀ(c·A(c·d_2))",
+"sigma": 2,
+"height": 3,
+"scalar_group": 7
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{1,1}(D_{1,0}(g_3))",
+"weight": "bᵀ(c·Ad_3)",
+"sigma": 6,
+"height": 3,
+"scalar_group": 3
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{2,1}(g_1,g_2)",
+"weight": "bᵀ(c·d_1·d_2)",
+"sigma": 2,
+"height": 2,
+"scalar_group": 8
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{2,0}(g_1,g_3)",
+"weight": "bᵀ(d_1·d_3)",
+"sigma": 6,
+"height": 2,
+"scalar_group": 9
+},
+{
+"N": 3,
+"K": 4,
+"diff": "D_{2,0}(g_2,g_2)",
+"weight": "bᵀ(d_2·d_2)",
+"sigma": 8,
+"height": 2,
+"scalar_group": 10
+},
+{
+"N": 2,
+"K": 5,
+"diff": "D_{1,2}(g_3)",
+"weight": "bᵀ(c^2·d_3)",
+"sigma": 12,
+"height": 2,
+"scalar_group": 1
+},
+{
+"N": 2,
+"K": 5,
+"diff": "D_{1,3}(g_2)",
+"weight": "bᵀ(c^3·d_2)",
+"sigma": 12,
+"height": 2,
+"scalar_group": 2
+},
+{
+"N": 2,
+"K": 5,
+"diff": "D_{1,4}(g_1)",
+"weight": "bᵀ(c^4·d_1)",
+"sigma": 24,
+"height": 2,
+"scalar_group": 3
+},
+{
+"N": 2,
+"K": 5,
+"diff": "D_{1,1}(g_4)",
+"weight": "bᵀ(c·d_4)",
+"sigma": 24,
+"height": 2,
+"scalar_group": 4
+},
+{
+"N": 2,
+"K": 5,
+"diff": "D_{1,0}(g_5)",
+"weight": "bᵀ(d_5)",
+"sigma": 120,
+"height": 2,
+"scalar_group": 5
+},
+{
+"N": 1,
+"K": 6,
+"diff": "g_6",
+"weight": "D_6",
+"sigma": 720,
+"height": 1,
+"scalar_group": 1
+}
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "s": 2,
+  "alpha": "3/10",
+  "p": "8/5",
+  "fast_keys": 5,
+  "fast_nonzero": 3,
+  "trees_scalar": 3,
+  "trees_system": 3,
+  "unknowns": 3
+ },
+ {
+  "s": 3,
+  "alpha": "3/10",
+  "p": "23/10",
+  "fast_keys": 9,
+  "fast_nonzero": 5,
+  "trees_scalar": 5,
+  "trees_system": 5,
+  "unknowns": 6
+ },
+ {
+  "s": 4,
+  "alpha": "3/10",
+  "p": "13/5",
+  "fast_keys": 36,
+  "fast_nonzero": 8,
+  "trees_scalar": 8,
+  "trees_system": 8,
+  "unknowns": 10
+ },
+ {
+  "s": 4,
+  "alpha": "7/10",
+  "p": "19/5",
+  "fast_keys": 25,
+  "fast_nonzero": 9,
+  "trees_scalar": 9,
+  "trees_system": 9,
+  "unknowns": 10
+ },
+ {
+  "s": 5,
+  "alpha": "7/10",
+  "p": "22/5",
+  "fast_keys": 40,
+  "fast_nonzero": 15,
+  "trees_scalar": 15,
+  "trees_system": 16,
+  "unknowns": 15
+ },
+ {
+  "s": 5,
+  "alpha": "7/10",
+  "p": "21/5",
+  "fast_keys": 36,
+  "fast_nonzero": 12,
+  "trees_scalar": 12,
+  "trees_system": 13,
+  "unknowns": 15
+ },
+ {
+  "s": 5,
+  "alpha": "3/10",
+  "p": "29/10",
+  "fast_keys": 58,
+  "fast_nonzero": 12,
+  "trees_scalar": 12,
+  "trees_system": 13,
+  "unknowns": 15
+ },
+ {
+  "s": 5,
+  "alpha": "3/5",
+  "p": "4",
+  "fast_keys": 43,
+  "fast_nonzero": 13,
+  "trees_scalar": 13,
+  "trees_system": 14,
+  "unknowns": 15
+ },
+ {
+  "s": 5,
+  "alpha": "4/5",
+  "p": "23/5",
+  "fast_keys": 38,
+  "fast_nonzero": 15,
+  "trees_scalar": 15,
+  "trees_system": 16,
+  "unknowns": 15
+ },
+ {
+  "s": 5,
+  "alpha": "9/10",
+  "p": "24/5",
+  "fast_keys": 38,
+  "fast_nonzero": 15,
+  "trees_scalar": 15,
+  "trees_system": 16,
+  "unknowns": 15
+ },
+ {
+  "s": 6,
+  "alpha": "3/5",
+  "p": "23/5",
+  "fast_keys": 71,
+  "fast_nonzero": 21,
+  "trees_scalar": 21,
+  "trees_system": 25,
+  "unknowns": 21
+ },
+ {
+  "s": 6,
+  "alpha": "3/10",
+  "p": "16/5",
+  "fast_keys": 84,
+  "fast_nonzero": 16,
+  "trees_scalar": 16,
+  "trees_system": 20,
+  "unknowns": 21
+ },
+ {
+  "s": 5,
+  "alpha": "1/2",
+  "p": "7/2",
+  "fast_keys": 46,
+  "fast_nonzero": 13,
+  "trees_scalar": 13,
+  "trees_system": 14,
+  "unknowns": 15
+ },
+ {
+  "s": 6,
+  "alpha": "1/2",
+  "p": "4",
+  "fast_keys": 73,
+  "fast_nonzero": 20,
+  "trees_scalar": 20,
+  "trees_system": 24,
+  "unknowns": 21
+ }
+]
