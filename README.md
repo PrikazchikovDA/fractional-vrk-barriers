@@ -1,6 +1,6 @@
 # fractional-vrk-barriers
 
-Код и данные к статье Д. А. Приказчикова «Барьеры порядка явных дробных методов Рунге–Кутты в форме Вольтерры» (рукопись, 2026).
+Код и данные к статье Д. А. Приказчикова «Барьеры порядка явных дробных методов Рунге–Кутты в форме Вольтерры» (рукопись, 2026). Репозиторий: https://github.com/PrikazchikovDA/fractional-vrk-barriers
 
 *Code and data for the paper "Order barriers for explicit fractional Runge–Kutta methods of Volterra type" (D. A. Prikazchikov, manuscript, 2026): an order-condition generator for explicit Volterra (Pouzet–Lubich) Runge–Kutta methods for Caputo fractional ODEs, barrier maps, optimal tableaux, convergence tests and an audit of the EFORK methods (Ghaffari et al., 2023).*
 
