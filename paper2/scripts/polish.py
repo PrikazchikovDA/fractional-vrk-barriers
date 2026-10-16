@@ -13,7 +13,7 @@ def build(v, s, a):
         for j in range(1, i): A[i][j] = v[idx]; idx += 1
         A[i][0] = c[i]**a/mp.gamma(a+1) - sum(A[i][1:i])
     return c, A, list(v[idx:idx+s])
-def polish(v0, s, a, L, iters=40):
+def polish(v0, s, a, L, iters=80):
     am = mp.mpf(a) if not isinstance(a, str) else mp.mpf(a)
     trees = [t for t in all_trees(float(a), L + 0.5) if height(t) <= s and NK(t)[0]*float(a) + NK(t)[1] <= L + 1e-9]
     v = mp.matrix([mp.mpf(float(x)) for x in v0])
@@ -26,7 +26,7 @@ def polish(v0, s, a, L, iters=40):
         n = len(v); J = mp.matrix(len(r), n); hstep = mp.mpf(10)**(-30)
         for k in range(n):
             vk = v.copy(); vk[k] += hstep; J[:, k] = (R(vk) - r)/hstep
-        dv = mp.lu_solve(J.T*J + mp.eye(n)*mp.mpf(10)**(-40), -(J.T*r))   # minimum-change GN step
+        dv = mp.lu_solve(J.T*J + mp.eye(n)*(nr + mp.mpf(10)**(-40)), -(J.T*r))   # minimum-change GN step
         lam = mp.mpf(1)
         for _ in range(30):   # backtracking: keep nodes positive and decrease the residual
             w = v + lam*dv
