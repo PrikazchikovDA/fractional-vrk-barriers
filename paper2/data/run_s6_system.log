@@ -7,3 +7,4 @@
 {"found": true, "res": 2.8851836164051976e-17, "ncond": 8, "nunk": 21, "tries": 1, "maxcoef": 3.173953670841143, "alpha": 0.7, "L": 3.7, "s": 6, "mode": "system", "cmax": "1.5", "sec": 0.0}
 {"found": true, "res": 9.166874690840842e-17, "ncond": 9, "nunk": 21, "tries": 1, "maxcoef": 5.345020263665425, "alpha": 0.7, "L": 3.8, "s": 6, "mode": "system", "cmax": "1.5", "sec": 0.0}
 {"found": true, "res": 1.251344881347255e-16, "ncond": 13, "nunk": 21, "tries": 1, "maxcoef": 12.150508851620886, "alpha": 0.7, "L": 4.1, "s": 6, "mode": "system", "cmax": "1.5", "sec": 0.6}
+{"found": true, "res": 5.060452272179687e-16, "ncond": 16, "nunk": 21, "tries": 1, "maxcoef": 57.19345600499598, "alpha": 0.7, "L": 4.4, "s": 6, "mode": "system", "cmax": "1.5", "sec": 16.3}
