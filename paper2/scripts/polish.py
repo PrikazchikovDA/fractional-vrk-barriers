@@ -26,7 +26,7 @@ def polish(v0, s, a, L, iters=80):
         n = len(v); J = mp.matrix(len(r), n); hstep = mp.mpf(10)**(-30)
         for k in range(n):
             vk = v.copy(); vk[k] += hstep; J[:, k] = (R(vk) - r)/hstep
-        dv = mp.lu_solve(J.T*J + mp.eye(n)*(nr + mp.mpf(10)**(-40)), -(J.T*r))   # minimum-change GN step
+        dv = mp.lu_solve(J.T*J + mp.eye(n)*(nr**2 + mp.mpf(10)**(-40)), -(J.T*r))   # minimum-change GN step
         lam = mp.mpf(1)
         for _ in range(30):   # backtracking: keep nodes positive and decrease the residual
             w = v + lam*dv
