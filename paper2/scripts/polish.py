@@ -27,7 +27,15 @@ def polish(v0, s, a, L, iters=40):
         for k in range(n):
             vk = v.copy(); vk[k] += hstep; J[:, k] = (R(vk) - r)/hstep
         dv = mp.lu_solve(J.T*J + mp.eye(n)*mp.mpf(10)**(-40), -(J.T*r))   # minimum-change GN step
-        v = v + dv
+        lam = mp.mpf(1)
+        for _ in range(30):   # backtracking: keep nodes positive and decrease the residual
+            w = v + lam*dv
+            if all(w[k] > 0 for k in range(s-1)):
+                try:
+                    if mp.norm(R(w)) < nr: break
+                except TypeError: pass
+            lam /= 2
+        v = w
     return v, float(mp.norm(R(v))), len(trees)
 if __name__ == '__main__':
     v0 = np.load(sys.argv[1]); s = int(sys.argv[2]); a = mp.mpf(sys.argv[3]); L = float(sys.argv[4])
