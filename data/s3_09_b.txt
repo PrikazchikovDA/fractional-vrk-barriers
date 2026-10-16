@@ -1,0 +1,1 @@
+alpha=9/10 s=3 p=3.7000001: 9 conds, 6 unk -> none res=6.2e-06 (507s)

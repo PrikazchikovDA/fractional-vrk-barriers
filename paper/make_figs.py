@@ -55,7 +55,8 @@ for fn in ['map_s123.json', 'map4.json', 'map4b.json', 'map4c.json']: maps += js
 pts = {}
 for r in maps:
     if r['err_exp'] is not None and r['s'] >= 2: pts.setdefault(r['s'], []).append((r['alpha'], r['err_exp']))
-pts[5] = [(0.3, 2.9), (0.6, 4.0), (0.7, 4.4), (0.8, 4.6), (0.9, 4.8)]
+pts[3].append((0.9, 3.7))  # s=3, alpha=0.9: exists up to 3.6, none at 3.7 (scripts/vrk_fast.py)
+pts[5] = [(0.2, 2.6), (0.25, 2.75), (0.3, 2.9), (1/3, 3.0), (0.4, 3.2), (0.5, 3.5), (0.6, 4.0), (2/3, 13/3), (0.7, 4.4), (0.75, 4.5), (0.8, 4.6), (0.9, 4.8)]
 fig, ax = plt.subplots(figsize=(4.6, 3.2))
 a_ = np.linspace(0.15, 1.0, 300)
 form = {2: lambda a: 1+2*a, 3: lambda a: np.maximum(2+a, 1+3*a), 4: lambda a: np.maximum(2+2*a, 1+4*a),
