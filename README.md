@@ -56,4 +56,4 @@ python3 paper/make_figs.py                 # рисунки в paper/figs/
 
 ## Лицензия
 
-См. файл LICENSE.
+MIT, см. файл LICENSE.
