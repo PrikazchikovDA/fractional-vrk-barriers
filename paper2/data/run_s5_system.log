@@ -1,9 +1,0 @@
-{"found": true, "res": 0.0, "ncond": 1, "nunk": 15, "tries": 1, "maxcoef": 1.424041982225367, "alpha": 0.7, "L": 0.7, "s": 5, "mode": "system", "cmax": "1.5", "sec": 0.0}
-{"found": true, "res": 0.0, "ncond": 2, "nunk": 15, "tries": 1, "maxcoef": 1.424041982225367, "alpha": 0.7, "L": 1.7, "s": 5, "mode": "system", "cmax": "1.5", "sec": 0.0}
-{"found": true, "res": 1.4850133411029573e-17, "ncond": 3, "nunk": 15, "tries": 1, "maxcoef": 7.30882626668253, "alpha": 0.7, "L": 2.4, "s": 5, "mode": "system", "cmax": "1.5", "sec": 0.0}
-{"found": true, "res": 3.0559488317052986e-17, "ncond": 4, "nunk": 15, "tries": 1, "maxcoef": 7.30882626668253, "alpha": 0.7, "L": 2.7, "s": 5, "mode": "system", "cmax": "1.5", "sec": 0.0}
-{"found": true, "res": 3.1047932838283814e-16, "ncond": 5, "nunk": 15, "tries": 1, "maxcoef": 7.30882626668253, "alpha": 0.7, "L": 3.1, "s": 5, "mode": "system", "cmax": "1.5", "sec": 0.0}
-{"found": true, "res": 1.824202177189191e-16, "ncond": 7, "nunk": 15, "tries": 1, "maxcoef": 63.55400249681979, "alpha": 0.7, "L": 3.4, "s": 5, "mode": "system", "cmax": "1.5", "sec": 0.2}
-{"found": true, "res": 4.2481341504499137e-16, "ncond": 8, "nunk": 15, "tries": 2, "maxcoef": 1.4864922753866479, "alpha": 0.7, "L": 3.7, "s": 5, "mode": "system", "cmax": "1.5", "sec": 11.8}
-{"found": true, "res": 3.88455670546624e-16, "ncond": 9, "nunk": 15, "tries": 1, "maxcoef": 1.8506971650229966, "alpha": 0.7, "L": 3.8, "s": 5, "mode": "system", "cmax": "1.5", "sec": 0.0}
-{"found": true, "res": 3.937334788253442e-16, "ncond": 13, "nunk": 15, "tries": 3, "maxcoef": 2.663228880286441, "alpha": 0.7, "L": 4.1, "s": 5, "mode": "system", "cmax": "1.5", "sec": 27.8}

@@ -4,3 +4,5 @@ paper/figs/
 paper2/paper/*.aux
 paper2/paper/*.log
 paper2/paper/*.out
+paper2/data/run_*.log
+paper2/data/map_*.jsonl
