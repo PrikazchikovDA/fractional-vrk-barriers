@@ -9,3 +9,5 @@ paper2/data/map_*.jsonl
 paper2/data/extend_*.jsonl
 paper2/data/cont_S16.jsonl
 paper2/data/branch_low.jsonl
+paper2/data/mp_up.jsonl
+paper2/data/s6_embed.jsonl
