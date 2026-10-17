@@ -13,3 +13,5 @@ paper2/data/mp_up.jsonl
 paper2/data/s6_embed.jsonl
 paper2/data/family_walk.jsonl
 paper2/data/S16_cbound.jsonl
+paper2/data/cbound_scan.jsonl
+paper2/data/c2_limit.jsonl
