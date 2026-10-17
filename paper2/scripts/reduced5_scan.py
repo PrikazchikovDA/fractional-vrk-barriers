@@ -22,6 +22,6 @@ for a in [0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]:
                 found[key] = dict(alpha=a, p=r.x.tolist(), cmax=float(c.max()), cmin=float(c.min()),
                                   maxb=float(np.abs(b).max()), maxa=float(np.abs(r.x[3:]).max()))
     for rec in sorted(found.values(), key=lambda d: max(d['maxb'], d['maxa'])):
-        log.write(json.dumps(rec) + '\n')
+        log.write(json.dumps(rec) + '\n'); log.flush()
     best = sorted(found.values(), key=lambda d: max(d['maxb'], d['maxa']))
     print(a, 'n_solutions', len(found), 'best:', [(round(d['cmin'], 3), round(d['cmax'], 3), round(max(d['maxb'], d['maxa']), 1)) for d in best[:4]], flush=True)
