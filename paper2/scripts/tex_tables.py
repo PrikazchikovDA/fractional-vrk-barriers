@@ -11,11 +11,12 @@ def compact(s):
 def expo(N, K):
     a = '\\alpha' if N == 1 else f'{N}\\alpha'
     return f'{K}+{a}' if K else a
+NKMAX = int(sys.argv[1]) if len(sys.argv) > 1 else 6
 lev = defaultdict(list)
 for n in range(1, 8):
     for t in trees_by_order(n):
         N, K = NK(t)
-        if N + K <= 6: lev[(N, K)].append(t)
+        if N + K <= NKMAX: lev[(N, K)].append(t)
 rows = []
 for (N, K) in sorted(lev, key=lambda x: (x[0] + x[1], -x[0])):
     ts = sorted(lev[(N, K)], key=lambda t: (height(t), weight_tex(t)))

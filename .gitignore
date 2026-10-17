@@ -17,3 +17,5 @@ paper2/data/cbound_scan.jsonl
 paper2/data/c2_limit.jsonl
 paper2/data/reduced5_scan.jsonl
 paper2/data/branchA_verify.jsonl
+paper2/paper/*.pdf
+!paper2/paper/figs/*.pdf
