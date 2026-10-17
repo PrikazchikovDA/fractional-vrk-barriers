@@ -7,9 +7,10 @@ import numpy as np
 from scipy.optimize import least_squares
 from reduced5 import residual, weights
 log = open(os.path.join(ROOT, 'paper2', 'data', 'reduced5_scan.jsonl'), 'a')
-for a in [0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]:
+ALPHAS = [float(x) for x in sys.argv[1].split(",")] if len(sys.argv) > 1 else [0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
+for a in ALPHAS:
     rng = np.random.default_rng(int(1000*a)); found = {}
-    for t in range(1500):
+    for t in range(500):
         p0 = np.r_[rng.uniform(0.02, 1.5, 3), rng.normal(scale=2.0, size=3)]
         try:
             r = least_squares(lambda p: residual(p, a), p0, method='lm', xtol=1e-15, ftol=1e-15, gtol=1e-15, max_nfev=1500)
