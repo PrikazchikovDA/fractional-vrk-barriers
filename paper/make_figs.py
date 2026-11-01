@@ -46,7 +46,8 @@ for k, (fn, lab) in enumerate([('g2.txt', '2 стадии'), ('g3.txt', '3 ст�
 ax[1].plot(al, 2*al, color=C[0], lw=0.8, alpha=0.6, label=r'заявлено $2\alpha$')
 ax[1].plot(al, 3*al, color=C[1], lw=0.8, alpha=0.6, label=r'заявлено $3\alpha$')
 ax[1].set_xlabel(r'$\alpha$'); ax[1].set_ylabel('наблюдаемый порядок'); ax[1].set_ylim(-0.4, 3)
-ax[1].set_title(r'(б) EFORK, $N=160\to640$', fontsize=9); ax[1].legend(loc='upper left', fontsize=7)
+ax[1].set_title(r'(б) EFORK, $N=160$ и $640$', fontsize=9)
+ax[1].legend(loc='upper center', bbox_to_anchor=(0.5, -0.2), ncol=2, fontsize=7)
 fig.savefig(os.path.join(FIG, 'efork.pdf')); plt.close(fig)
 
 # ---------- Fig 2: barrier map ----------
